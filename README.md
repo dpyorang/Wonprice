@@ -1,22 +1,15 @@
 # WonPrice
-![Group_137](https://github.com/pearl-sea/seb45_main_003/assets/102569322/c5f733ed-9af9-49b8-9fc4-2315cfb7f7ad)
 
+중고 상품을 경매로 거래하고 구매자와 판매자가 채팅할 수 있는 팀 프로젝트입니다. 2023년 8월 24일부터 9월 19일까지 프론트엔드 3명과 백엔드 3명이 함께 개발했습니다.
 
-### 🗣️ 실시간 중고 경매 서비스
-* 팀 명: 내 동년배들 다 코딩한다.
-* 프로젝트 일정: 23-08-24 ~ 23-09-19
-* 배포 주소: [wonprice.shop](https://wonprice.shop/)
+## 담당 역할
 
----
+- 백엔드 팀장으로 정기 코드 리뷰와 팀 통합 테스트를 진행했습니다.
+- 경매 종료 시 거래 당사자의 채팅방을 자동으로 생성하는 기능과 WebSocket·STOMP 기반 메시지 송수신을 구현했습니다.
+- 실시간 입찰과 상품 목록의 가격 조회에 필요한 갱신 수준을 구분했습니다. 상품 목록의 가격 갱신에는 Long Polling을 적용했습니다.
 
-###  🧑🏻‍🦳 WonPrice 멤버들
-|FE (팀장)|FE|FE|BE|BE|BE (팀장)|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|<img src="https://github.com/codestates-seb/seb45_main_003/assets/105766506/07e1c4e1-ba37-4796-9a35-a0f5856670db" width="120" height="180"/>|<img src="https://github.com/codestates-seb/seb45_main_003/assets/105766506/fa24a999-b436-4284-85ef-65636dc4180f" width="120" height="180"/>|<img src="https://github.com/codestates-seb/seb45_main_003/assets/105766506/fe84f796-6fa9-435d-82ad-b7c4eb2f6229" width="120" height="180"/>|<img src="https://github.com/codestates-seb/seb45_main_003/assets/105766506/b97346d0-17d8-40aa-a59f-c1359944bc61" width="120" height="180"/>|<img src="https://github.com/codestates-seb/seb45_main_003/assets/105766506/c1a51383-e2d3-40f0-9e71-d0165ccf61f5" width="120" height="180"/>|<img src="https://github.com/codestates-seb/seb45_main_003/assets/105766506/b30905ac-7313-4b12-84ba-1e21a8a566d3" width="120" height="180"/>|
-|허찬욱|박다해|박진주|서정욱|이지연|공대표|
-|[sintobury](https://github.com/sintobury)|[eg1377](https://github.com/eg1377)|[pearl-sea](https://github.com/pearl-sea)|[Jung-seo](https://github.com/Jung-seo)|[Jeonni](https://github.com/Jeonni)|[C5ng](https://github.com/C5ng)|
+## 기술과 구조
 
+백엔드는 Java, Spring Boot, JPA, MySQL, Redis를 사용했습니다. 프론트엔드 코드는 `client`, 백엔드 코드는 `server/wonprice`에 있습니다.
 
-
-
-
+팀 구성과 전체 기능은 [프로젝트 원본](https://github.com/KongDaePyo/Wonprice)에서 확인할 수 있습니다.
